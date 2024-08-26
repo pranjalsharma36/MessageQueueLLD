@@ -255,3 +255,11 @@ class ConsumerTask implements Runnable{
 		
 	}
 }
+
+/*
+ * There are 2 things we need to create here
+ * One is the Consumer POJO
+ * Second is the ConsumerWorker : responsible for checking the taskQueue based on its availability,
+ * if it has tasks to pick up or not.
+ * */
+ 
